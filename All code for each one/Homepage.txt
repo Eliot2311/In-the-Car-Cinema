@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: ;
+  padding-left: 0px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>WELCOME TO OUR DRIVE IN CINEMA</h2>
+      <div class="fakeimg" style="height:200px;">Image</div>      
+      <p>The Drive In Cinema welcome you to the best drive in ever made in Uk. We have new news for you customers from Sunday 13th June 2022. We are making plans to make the Drive in Cinema the best experience you could get, so be ready to our new updates towards The Drive in Cinema </p>
+    </div>
+<body>
+    <div class="card">
+      <h2>ANY PROBLEMS?JUST CONTACT US</h2>
+ <img src="file:///C:/Users/isoke/OneDrive/Pictures/help.jpeg" alt="Snow" style="width:100%"> 
+<body>
+<html>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Us</h2>
+       <div class="fakeimg" style="height:100px;">Image</div>
+    </div>
+    <div class="card">
+      <h3>Hungry?</h3>
+      <img src="file:///C:/Users/isoke/OneDrive/Pictures/help.jpeg" width="500" height="333">
+<img src="file:///C:/Users/isoke/OneDrive/Pictures/help.jpeg" width="500" height="333">
+<img src="file:///C:/Users/isoke/OneDrive/Pictures/help.jpeg" width="500" height="333">  
+</div>
+<div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>    
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: -10%;
+  max-width: 400px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: -200%;
+  left: 220%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: white;
+  font-size: 16px;
+  padding: 50px 100px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p>:</p>
+
+<div class="container">      
+<div class="btn">
+ <a href="support link">SUPPORT</button</a>
+  </div> 
+</body>
+</html>
